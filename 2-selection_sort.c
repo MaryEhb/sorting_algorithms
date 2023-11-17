@@ -1,14 +1,14 @@
 #include "sort.h"
 
 /**
- * quick_sort - function that sorts an array of integers in ascending
- * order using the Quick sort algorithm
+ * selection_sort - function that sorts an array of integers in ascending
+ * order using the Selection sort algorithm
  * @array: array of int
  * @size: array size
  * Return: Nothing
  */
 
-void quick_sort(int *array, size_t size)
+void selection_sort(int *array, size_t size)
 {
 	int tmp;
 	unsigned int i, j, index;
